@@ -131,7 +131,7 @@ examples:
       dns_name: 'example.com.'
       managed_zone_name: 'example-zone'
     test_vars_overrides:
-      'dns_name': '"consitions.example.com-" + acctest.RandString(t, 10) + "."'
+      'dns_name': '"conditions.example.com-" + acctest.RandString(t, 10) + "."'
 virtual_fields:
   - name: 'force_destroy'
     description: 'Set this true to delete all records in the zone.'
